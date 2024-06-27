@@ -6,7 +6,8 @@ on:
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
-
+  watch: # 3.手动点击收藏
+    types: [started]
 jobs:
   build:
 
